@@ -40,16 +40,12 @@ ul {
 
 .heromain {
     display: flex;
+    margin: 50px 150px;
 }
 
 .leftmain {
     display: flex;
     flex-direction: column;
-}
-
-.header,
-.heromain {
-    margin: 10px 150px;
 }
 
 .box {
@@ -58,3 +54,30 @@ ul {
     width: 100px;
     border-radius: 10px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 150px;
+    gap: 50px;
+}
+
+.secondsecond {
+    display: flex;
+    gap: 40px;
+}
+
+#thor {
+    display: flex;
+    justify-content: end;
+}
+
