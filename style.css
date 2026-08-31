@@ -38,5 +38,23 @@ ul {
     font-weight: 600;
 }
 
+.heromain {
+    display: flex;
+}
 
+.leftmain {
+    display: flex;
+    flex-direction: column;
+}
 
+.header,
+.heromain {
+    margin: 10px 150px;
+}
+
+.box {
+    outline: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
