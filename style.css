@@ -41,15 +41,17 @@ ul {
 .heromain {
     display: flex;
     margin: 50px 150px;
+    gap: 40px;
 }
 
 .leftmain {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .box {
-    outline: 2px solid blue;
+    outline: 2px solid #3882F6;
     height: 100px;
     width: 100px;
     border-radius: 10px;
@@ -61,6 +63,7 @@ ul {
     align-items: center;
     text-align: center;
     gap: 4px;
+    color: #636363;
 }
 
 .second {
@@ -79,6 +82,10 @@ ul {
 #thor {
     display: flex;
     justify-content: end;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
+    font-style: normal;
 }
 
 .fourth {
@@ -89,3 +96,57 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.grey {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heromaintext {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0;
+}
+
+#image {
+    display: flex;
+    height: 200px;
+    width: 800px;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+}
+
+#informationheading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.third {
+    background-color: #E5E7EB;
+    padding: 50px 150px;
+}
+
+
