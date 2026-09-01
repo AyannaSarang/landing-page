@@ -90,6 +90,10 @@ ul {
 
 .fourth {
     display: flex;
+    margin: 50 150px;
+    padding: 50px;
+    background: #3882F6;
+    gap: 4px;
 }
 
 .firstfourth {
@@ -147,6 +151,10 @@ button {
 .third {
     background-color: #E5E7EB;
     padding: 50px 150px;
+}
+
+#borderwhite {
+    outline: 2px solid #F9FAF8;
 }
 
 
