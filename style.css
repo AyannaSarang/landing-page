@@ -81,3 +81,11 @@ ul {
     justify-content: end;
 }
 
+.fourth {
+    display: flex;
+}
+
+.firstfourth {
+    display: flex;
+    flex-direction: column;
+}
