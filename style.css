@@ -32,7 +32,7 @@ ul {
     gap: 10px;
 }
 
-#logo {
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
@@ -90,10 +90,14 @@ ul {
 
 .fourth {
     display: flex;
-    margin: 50 150px;
-    padding: 50px;
+    height: 50px;
+    width: 600px;
+    padding: 25px;
     background: #3882F6;
-    gap: 4px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .firstfourth {
@@ -157,4 +161,16 @@ button {
     outline: 2px solid #F9FAF8;
 }
 
+.biggerbox {
+    margin: 50px 150px;
+    justify-items: center;
+    align-items: center;
+}
 
+#footer {
+    background-color: #1F2937;
+    height: 75px;
+    text-align: center;
+    color: #E5E7EB;
+    align-content: center;
+}
